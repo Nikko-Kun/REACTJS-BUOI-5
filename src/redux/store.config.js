@@ -1,8 +1,9 @@
 import { createStore, combineReducers } from "redux";
+import { quanLySinhVienReducer } from "./ReactForm/FormQLSV.reducer.js";
 
 
 const rootReducer = combineReducers({
-
+  quanLySinhVienReducer,
 });
 
 // redux store. tập trung tất cả state của ứng dụng.
